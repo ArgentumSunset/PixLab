@@ -59,11 +59,21 @@ public class IntArrayWorker {
 	public int getCount(int value) {
 		int count = 0;
 		for (int row = 0; row < matrix.length; row++) {
-			for (int col : matrix[row]){
-				if (col == value) { count += 1; }
+			for (int data : matrix[row]){
+				if (data == value) { count += 1; }
 			}
 		}
 		return count;
+	}
+
+	public int getLargest() {
+		int largest = 0;
+		for (int row = 0; row < matrix.length; row++) {
+			for (int data : matrix[row]){
+				if (data > largest) { largest = data; }
+			}
+		}
+		return largest;
 	}
 
 	/**

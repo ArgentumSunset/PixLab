@@ -76,6 +76,16 @@ public class IntArrayWorker {
 		return largest;
 	}
 
+	public int getColTotal(int colNum) {
+		int colTotal = 0;
+			for (int row = 0; row < matrix.length; row++) {
+				for (int i = 0; i < matrix[row].length; i++) {
+					if(i == colNum) { colTotal += matrix[row][i]; }
+				}
+			}
+		return colTotal;
+	}
+
 	/**
 	 * print the values in the array in rows and columns
 	 */

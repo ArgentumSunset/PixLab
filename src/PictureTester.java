@@ -43,6 +43,10 @@ public class PictureTester
     canvas.explore();
   }
   
+  public static void testKeepOnlyBlue() {
+	  
+  }
+  
   /** Method to test edgeDetection */
   public static void testEdgeDetection()
   {
@@ -59,7 +63,7 @@ public class PictureTester
     // and comment out the ones you don't want
     // to run
     testZeroBlue();
-    //testKeepOnlyBlue();
+    testKeepOnlyBlue();
     //testKeepOnlyRed();
     //testKeepOnlyGreen();
     //testNegate();

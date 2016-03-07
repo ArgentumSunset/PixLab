@@ -1,29 +1,5 @@
-# Part 5
+# Part 6
 
 ## Questions
 
-1. No, the method getPixels2D is not there
-
-2. Yes, it is there
-
-3. No, because DigitalPicture is an interface and you cannot instantiate an interface.
-
-4. Yes, it compiles!
-
-5. Yes, it compiles!
-
-6. Yes, it compiles!
-
-7. No, it would not compile. This is a parent inheriting from its child, which just doesn't work.
-
-## Exercises
-1. Ran PictureTester.java's main() method
-
-2. I did that
-
-3. I wrote keepOnlyBlue(). It was really, really easy.
-
-4. Ditto for negate().
-
-5. Are any of these at all complex?
 

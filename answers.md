@@ -18,3 +18,12 @@
 
 ## Exercises
 1. Ran PictureTester.java's main() method
+
+2. I did that
+
+3. I wrote keepOnlyBlue(). It was really, really easy.
+
+4. Ditto for negate().
+
+5. Are any of these at all complex?
+

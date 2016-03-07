@@ -25,5 +25,7 @@
 
 4. Ditto for negate().
 
-5. Are any of these at all complex?
+5. grayscale() finished.
+
+6. Fish are now somewhat easier to see.
 

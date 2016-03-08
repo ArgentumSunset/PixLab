@@ -81,6 +81,14 @@ public class PictureTester
     temple.explore();
   }
   
+  public static void testMirrorArms()
+  {
+    Picture img = new Picture("snowman.jpg");
+    img.explore();
+    img.mirrorArms(158,190,104,170);
+    img.explore();
+  }
+  
   /** Method to test the collage method */
   public static void testCollage()
   {
@@ -136,20 +144,20 @@ public class PictureTester
 //    testMirrorVerticalRightToLeft();
 //    testMirrorHorizontal();
 //    testMirrorHorizontalBotToTop();
-    testMirrorDiagonal();
-    //testMirrorTemple();
-    //testMirrorArms();
-    //testMirrorGull();
-    //testMirrorDiagonal();
-    //testCollage();
-    //testCopy();
-    //testEdgeDetection();
-    //testEdgeDetection2();
-    //testChromakey();
-    //testEncodeAndDecode();
-    //testGetCountRedOverValue(250);
-    //testSetRedToHalfValueInTopHalf();
-    //testClearBlueOverValue(200);
-    //testGetAverageForColumn(0);
+//    testMirrorDiagonal();
+//    testMirrorTemple();
+    testMirrorArms();
+//    testMirrorGull();
+//    testMirrorDiagonal();
+//    testCollage();
+//    testCopy();
+//    testEdgeDetection();
+//    testEdgeDetection2();
+//    testChromakey();
+//    testEncodeAndDecode();
+//    testGetCountRedOverValue(250);
+//    testSetRedToHalfValueInTopHalf();
+//    testClearBlueOverValue(200);
+//    testGetAverageForColumn(0);
   }
 }

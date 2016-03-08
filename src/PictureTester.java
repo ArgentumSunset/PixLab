@@ -65,6 +65,13 @@ public class PictureTester
     gorge.explore();
   }
   
+  public static void testMirrorDiagonal()
+  {
+    Picture gorge = new Picture("gorge.jpg");
+    gorge.mirrorDiagonal();
+    gorge.explore();
+  }
+  
   /** Method to test mirrorTemple */
   public static void testMirrorTemple()
   {
@@ -127,8 +134,9 @@ public class PictureTester
 //    testFixUnderwater();
 //    testMirrorVertical();
 //    testMirrorVerticalRightToLeft();
-    testMirrorHorizontal();
-    testMirrorHorizontalBotToTop();
+//    testMirrorHorizontal();
+//    testMirrorHorizontalBotToTop();
+    testMirrorDiagonal();
     //testMirrorTemple();
     //testMirrorArms();
     //testMirrorGull();

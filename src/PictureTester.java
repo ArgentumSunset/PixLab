@@ -85,7 +85,15 @@ public class PictureTester
   {
     Picture img = new Picture("snowman.jpg");
     img.explore();
-    img.mirrorArms(158,190,104,170);
+    img.mirrorArms();
+    img.explore();
+  }
+  
+  public static void testMirrorGull()
+  {
+    Picture img = new Picture("seagull.jpg");
+    img.explore();
+    img.mirrorGull();
     img.explore();
   }
   
@@ -146,8 +154,8 @@ public class PictureTester
 //    testMirrorHorizontalBotToTop();
 //    testMirrorDiagonal();
 //    testMirrorTemple();
-    testMirrorArms();
-//    testMirrorGull();
+//    testMirrorArms();
+    testMirrorGull();
 //    testMirrorDiagonal();
 //    testCollage();
 //    testCopy();

@@ -255,7 +255,26 @@ public class Picture extends SimplePicture {
 		System.out.println(count);
 	}
 	
-	public void mirrorArms(int rowStart, int rowEnd, int colStart, int colEnd) {
+	public void mirrorGull() {
+		Pixel[][] pixels = this.getPixels2D();
+		Pixel leftPixel = null;
+		Pixel rightPixel = null;
+		int width = 348;
+		for (int row = 233; row < 325; row++) {
+			for (int col = 233; col < 348; col++) {
+				leftPixel = pixels[row][col];
+				rightPixel = pixels[row][2 * width - 1 - col];
+				rightPixel.setColor(leftPixel.getColor());
+			}
+		}
+	}
+	
+	public void mirrorArms() {
+		mirrorArm(158,190,104,170);
+		mirrorArm(168,196,238,295);
+	}
+	
+	public void mirrorArm(int rowStart, int rowEnd, int colStart, int colEnd) {
 		Pixel topPixel = null;
 		Pixel bottomPixel = null;
 		int count = 0;
